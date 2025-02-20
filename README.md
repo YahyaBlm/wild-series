@@ -365,3 +365,4 @@ Nous accueillons avec plaisir les contributions ! Veuillez suivre ces étapes po
 - Ajoutez des tests pour toute nouvelle fonctionnalité ou correction de bug.
 - Documentez clairement vos modifications dans la description de la pull request.
 # wild-series
+# wild-series
