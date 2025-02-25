@@ -15,4 +15,21 @@ router.post("/api/items", itemActions.add);
 
 /* ************************************************************************* */
 
+import sayActions from "./modules/say/sayActions";
+
+router.get("/", sayActions.sayWelcome);
+
+/* ************************************************************************* */
+
+import programActions from "./modules/program/programActions";
+
+router.get("/api/programs", programActions.browse);
+router.get("/api/programs/:id", programActions.read);
+
+/**************************************************************************** */
+
+import categoryAction from "./modules/category/categoryActions";
+router.get("/api/categories", categoryAction.browse);
+router.get("/api/categories/:id", categoryAction.read);
+
 export default router;
